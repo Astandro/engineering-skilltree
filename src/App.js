@@ -30,12 +30,16 @@ function App() {
     if (user) {
       // console.log(user)
       setPhotoURL(user.photoURL);
-      setName(user.displayName)
+      setName(user.displayName);
     } else {
       console.log("user not logged in");
       window.location.replace("/login.html");
     }
   });
+
+  function logOut() {
+    firebase.auth().signOut();
+  }
 
   return (
     <div className="App">
@@ -48,17 +52,18 @@ function App() {
             <img src={screenshot} onClick={toggleOpen} />
             <div className="content">
               <h2>
-                An RPG-style talent tree
+                An RPG-style skilltree
                 <br />
-                for web developers
+                for software engineers
               </h2>
               <p>
-                As professional nerds, we love role-playing games. And we love
-                web development. Naturally, we wondered what a character talent
-                tree for a web developer might look like.
+                This project is a react version of <a href="https://github.com/352Media/skilltree">352media/skilltree </a> 
+                with several adjustment in it's functionality and also firebase integration.
+                <br/>
+                You can use this app to keep track of your own skills or to track your subordinates skills (for managers)
               </p>
-              <h3>So, we decided to build one.</h3>
-              <button onClick={toggleOpen}>Open the talent tree »</button>
+              <h3>So, start your adventure now!</h3>
+              <button onClick={toggleOpen}>Open my skilltree »</button>
             </div>
           </div>
           <div className="talent-tree">
@@ -2150,7 +2155,7 @@ function App() {
               <img src={photoURL} />
             </div>
             <div className="portrait-controls">
-              <button>profile</button>
+              <button onClick={logOut}>logout</button>
             </div>
             <div className="details">
               <input className="username" defaultValue={name} disabled />
