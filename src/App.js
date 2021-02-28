@@ -57,10 +57,15 @@ function App() {
                 for software engineers
               </h2>
               <p>
-                This project is a react version of <a href="https://github.com/352Media/skilltree">352media/skilltree </a> 
-                with several adjustment in it's functionality and also firebase integration.
-                <br/>
-                You can use this app to keep track of your own skills or to track your subordinates skills (for managers)
+                This project is a react version of{" "}
+                <a href="https://github.com/352Media/skilltree">
+                  352media/skilltree{" "}
+                </a>
+                with several adjustment in it's functionality and also firebase
+                integration.
+                <br />
+                You can use this app to keep track of your own skills or to
+                track your subordinates skills (for managers)
               </p>
               <h3>So, start your adventure now!</h3>
               <button onClick={toggleOpen}>Open my skilltree »</button>
@@ -77,41 +82,6 @@ function App() {
                 <a className="addthis_button_google_plusone_share" />
                 <a className="addthis_button_email" />
               </div>
-
-              <h1>Who made this?</h1>
-              <p>
-                352 is a digital agency creating websites, software and
-                marketing campaigns. We came up with{" "}
-                <i>Dungeons &amp; Developers</i>
-                as a fun way to assess, promote and learn the skills it takes to
-                design and develop great web sites. This page was built during
-                the
-                <a
-                  onclick="_gaq.push(['_trackEvent','external link','who made this?','352 blog (race update)']);"
-                  href="http://www.352media.com/blog/race-week-2013/"
-                  target="_blank"
-                >
-                  "Race to 3:52"
-                </a>
-                , our annual company retreat that has every member of the
-                company working in teams on various innovative (and sometimes
-                silly) projects. It’s a pep rally, hackathon and family reunion
-                all rolled into one event.
-              </p>
-              <p>
-                We love this stuff. During our day jobs, we partner with great
-                clients to build smart solutions that drive results. Find out
-                more at
-                <a
-                  onclick="_gaq.push(['_trackEvent','external link','who made this?','352']);"
-                  href="http://www.352media.com/"
-                  target="_blank"
-                >
-                  352media.com
-                </a>
-                .
-              </p>
-              <hr />
             </div>
             <h2 className="start-helper active">Start here!</h2>
 
@@ -218,10 +188,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.html.net/tutorials/html/"
                       >
@@ -229,14 +195,7 @@ function App() {
                       </a>
                     </li>
                     <li>
-                      <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
-                        target="_blank"
-                        href="http://www.sublimetext.com/"
-                      >
+                      <a target="_blank" href="http://www.sublimetext.com/">
                         Sublime Text 3, a great code editor
                       </a>
                     </li>
@@ -296,10 +255,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.htmldog.com/guides/css/"
                       >
@@ -307,14 +262,7 @@ function App() {
                       </a>
                     </li>
                     <li>
-                      <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
-                        target="_blank"
-                        href="http://caniuse.com/#cats=CSS"
-                      >
+                      <a target="_blank" href="http://caniuse.com/#cats=CSS">
                         Can I use... (browser support)
                       </a>
                     </li>
@@ -366,10 +314,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://css-tricks.com/sass-vs-less/"
                       >
@@ -377,35 +321,17 @@ function App() {
                       </a>
                     </li>
                     <li>
-                      <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
-                        target="_blank"
-                        href="http://lesscss.org/"
-                      >
+                      <a target="_blank" href="http://lesscss.org/">
                         LESS
                       </a>
                     </li>
                     <li>
-                      <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
-                        target="_blank"
-                        href="http://sass-lang.com/"
-                      >
+                      <a target="_blank" href="http://sass-lang.com/">
                         Sass
                       </a>
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://learnboost.github.io/stylus/"
                       >
@@ -492,10 +418,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.codecademy.com/tracks/jquery"
                       >
@@ -504,10 +426,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://api.jquery.com/category/manipulation/"
                       >
@@ -516,10 +434,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://api.jquery.com/category/effects/"
                       >
@@ -584,10 +498,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="https://support.google.com/webmasters/answer/35291"
                       >
@@ -596,10 +506,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.google.com/webmasters/tools/"
                       >
@@ -608,10 +514,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.bing.com/toolbox/webmaster"
                       >
@@ -661,10 +563,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.webgnomes.org/blog/10-seo-analysis-tools/"
                       >
@@ -673,10 +571,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="https://support.google.com/analytics/answer/1308621?hl=en"
                       >
@@ -685,10 +579,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.bing.com/toolbox/webmaster"
                       >
@@ -697,10 +587,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.bing.com/toolbox/seo-analyzer"
                       >
@@ -759,10 +645,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.htmldog.com/guides/javascript/"
                       >
@@ -771,10 +653,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.codecademy.com/tracks/javascript"
                       >
@@ -783,10 +661,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://thenewboston.org/list.php?cat=10"
                       >
@@ -795,10 +669,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://javascript.crockford.com/"
                       >
@@ -928,10 +798,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/Server-side_scripting"
                       >
@@ -978,10 +844,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/Comparison_of_web_application_frameworks"
                       >
@@ -990,10 +852,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/Web_development#Server_side_coding"
                       >
@@ -1052,35 +910,17 @@ function App() {
                   </div>
                   <ul className="skill-links">
                     <li>
-                      <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
-                        target="_blank"
-                        href="http://www.w3schools.com/sql/"
-                      >
+                      <a target="_blank" href="http://www.w3schools.com/sql/">
                         w3schools.com SQL Tutorial
                       </a>
                     </li>
                     <li>
-                      <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
-                        target="_blank"
-                        href="http://sqlzoo.net/wiki/"
-                      >
+                      <a target="_blank" href="http://sqlzoo.net/wiki/">
                         SQLZOO Interactive SQL Tutorial
                       </a>
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="https://en.wikipedia.org/wiki/Database_normalization"
                       >
@@ -1131,10 +971,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/Stored_procedure"
                       >
@@ -1143,10 +979,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/User_defined_function"
                       >
@@ -1155,10 +987,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/Database_tuning"
                       >
@@ -1167,10 +995,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://technet.microsoft.com/en-us/library/ms187830(v=sql.105).aspx"
                       >
@@ -1180,10 +1004,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.mssqltips.com/sql-server-tip-category/9/performance-tuning/"
                       >
@@ -1192,10 +1012,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.orafaq.com/wiki/Oracle_database_Performance_Tuning_FAQ"
                       >
@@ -1301,10 +1117,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.codeproject.com/Articles/98950/ASP-NET-authentication-and-authorization"
                       >
@@ -1313,10 +1125,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/OpenID"
                       >
@@ -1324,23 +1132,12 @@ function App() {
                       </a>
                     </li>
                     <li>
-                      <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
-                        target="_blank"
-                        href="http://oauth.net/"
-                      >
+                      <a target="_blank" href="http://oauth.net/">
                         OAuth Community
                       </a>
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://msdn.microsoft.com/en-us/library/wce3kxhd(v=vs.100).aspx"
                       >
@@ -1396,10 +1193,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/Ajax_(programming)"
                       >
@@ -1408,10 +1201,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://thenewboston.org/list.php?cat=61"
                       >
@@ -1419,23 +1208,12 @@ function App() {
                       </a>
                     </li>
                     <li>
-                      <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
-                        target="_blank"
-                        href="http://www.asp.net/ajax"
-                      >
+                      <a target="_blank" href="http://www.asp.net/ajax">
                         Ajax: The Official Microsoft ASP.NET Site
                       </a>
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/Web_service"
                       >
@@ -1444,10 +1222,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/Representational_state_transfer"
                       >
@@ -1512,10 +1286,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.adaptivepath.com/ideas/the-anatomy-of-an-experience-map"
                       >
@@ -1576,10 +1346,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/Graphic_design"
                       >
@@ -1587,23 +1353,12 @@ function App() {
                       </a>
                     </li>
                     <li>
-                      <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
-                        target="_blank"
-                        href="http://www.behance.net/"
-                      >
+                      <a target="_blank" href="http://www.behance.net/">
                         Behance
                       </a>
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/User_experience_design"
                       >
@@ -1611,14 +1366,7 @@ function App() {
                       </a>
                     </li>
                     <li>
-                      <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
-                        target="_blank"
-                        href="http://www.awwwards.com/"
-                      >
+                      <a target="_blank" href="http://www.awwwards.com/">
                         Awwwards
                       </a>
                     </li>
@@ -1673,10 +1421,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://graphicdesignclasses.net/design-tools/"
                       >
@@ -1731,10 +1475,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.smashingmagazine.com/2010/06/16/design-better-faster-with-rapid-prototyping/"
                       >
@@ -1743,10 +1483,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.sitepoint.com/tools-prototyping-wireframing/"
                       >
@@ -1844,10 +1580,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.usefulusability.com/24-usability-testing-tools/"
                       >
@@ -1856,10 +1588,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/Usability_testing"
                       >
@@ -1919,10 +1647,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/Comparison_of_web_server_software"
                       >
@@ -1931,10 +1655,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://httpd.apache.org/docs/2.4/rewrite/"
                       >
@@ -1988,10 +1708,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://www.sslshopper.com/ssl-certificate-installation.html"
                       >
@@ -2000,10 +1716,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="https://developers.google.com/speed/docs/best-practices/payload"
                       >
@@ -2012,10 +1724,6 @@ function App() {
                     </li>
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="https://developers.google.com/speed/docs/best-practices/rtt#ParallelizeDownloads"
                       >
@@ -2078,10 +1786,6 @@ function App() {
                   <ul className="skill-links">
                     <li>
                       <a
-                        data-bind="attr: { href: url }, click: function(){ 
-                _gaq.push(['_trackEvent',$parent.title, label, url]);
-                return true;
-                }, text: label"
                         target="_blank"
                         href="http://en.wikipedia.org/wiki/Web_development"
                       >
@@ -2201,47 +1905,27 @@ function App() {
             </p>
             <ul>
               <li>
-                <a
-                  onclick="_gaq.push(['_trackEvent','external link','footer','A List Apart']);"
-                  href="http://alistapart.com/"
-                  target="_blank"
-                >
+                <a href="http://alistapart.com/" target="_blank">
                   A List Apart
                 </a>
               </li>
               <li>
-                <a
-                  onclick="_gaq.push(['_trackEvent','external link','footer','Smashing Magazine']);"
-                  href="http://www.smashingmagazine.com/"
-                  target="_blank"
-                >
+                <a href="http://www.smashingmagazine.com/" target="_blank">
                   Smashing Magazine
                 </a>
               </li>
               <li>
-                <a
-                  onclick="_gaq.push(['_trackEvent','external link','footer','Code Academy']);"
-                  href="http://www.codecademy.com/"
-                  target="_blank"
-                >
+                <a href="http://www.codecademy.com/" target="_blank">
                   Code Academy
                 </a>
               </li>
               <li>
-                <a
-                  onclick="_gaq.push(['_trackEvent','external link','footer','Stack Overflow']);"
-                  href="http://www.stackoverflow.com/"
-                  target="_blank"
-                >
+                <a href="http://www.stackoverflow.com/" target="_blank">
                   Stack Overflow
                 </a>
               </li>
               <li>
-                <a
-                  onclick="_gaq.push(['_trackEvent','external link','footer','reddit']);"
-                  href="http://www.reddit.com/r/webdesign/"
-                  target="_blank"
-                >
+                <a href="http://www.reddit.com/r/webdesign/" target="_blank">
                   reddit webdesign
                 </a>
               </li>
@@ -2254,17 +1938,12 @@ function App() {
           <p>Try one of these free options:</p>
           <ul>
             <li>
-              <a
-                onclick="_gaq.push(['_trackEvent','external link','upgrade browser','Chrome']);"
-                href="http://google.com/chrome"
-                target="_blank"
-              >
+              <a href="http://google.com/chrome" target="_blank">
                 Google Chrome
               </a>
             </li>
             <li>
               <a
-                onclick="_gaq.push(['_trackEvent','external link','upgrade browser','MSIE']);"
                 href="http://windows.microsoft.com/en-US/internet-explorer/download-ie"
                 target="_blank"
               >
@@ -2273,7 +1952,6 @@ function App() {
             </li>
             <li>
               <a
-                onclick="_gaq.push(['_trackEvent','external link','upgrade browser','Firefox']);"
                 href="file:///E:/Projects/skilltree%20backup/public/www.mozilla.org/en-US/firefox"
                 target="_blank"
               >
