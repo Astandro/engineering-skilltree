@@ -5,29 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Engineering Skilltree</title>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/8.2.9/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/8.2.9/firebase-auth.js"></script>
-    <script defer src="/__/firebase/8.2.9/firebase-database.js"></script>
-    <script defer src="/__/firebase/8.2.9/firebase-firestore.js"></script>
-    <script defer src="/__/firebase/8.2.9/firebase-functions.js"></script>
-    <script defer src="/__/firebase/8.2.9/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/8.2.9/firebase-storage.js"></script>
-    <script defer src="/__/firebase/8.2.9/firebase-analytics.js"></script>
-    <script defer src="/__/firebase/8.2.9/firebase-remote-config.js"></script>
-    <script defer src="/__/firebase/8.2.9/firebase-performance.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyA7xpdYV4wEJswezNE-el1-inSqibWv3og",
+        authDomain: "engineering-skilltree.firebaseapp.com",
+        projectId: "engineering-skilltree",
+        storageBucket: "engineering-skilltree.appspot.com",
+        messagingSenderId: "906391863820",
+        appId: "1:906391863820:web:19605a1ba3b0afe77e2429",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
 
     <meta name="description" content="An RPG-style talent tree for software engineers.">
     <meta name="keywords" content="web design development rpg game talent skill skilltree">
     <link href="css/layout.css" rel="stylesheet">
   </head>
   <body>
+
+    <script type="text/javascript">
+      firebase.auth().onAuthStateChanged(function(user) {
+        if (user) {
+          console.log(user)
+        } else {
+          console.log('user not logged in')
+          window.location.replace("/login.html");
+        }
+      });
+    </script>
+
     <div class="ltIE9-hide">
       <div data-bind="css: { open: isOpen }" class="page">
         <header>
