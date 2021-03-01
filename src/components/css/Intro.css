@@ -1,0 +1,41 @@
+.intro {
+  width: 600px;
+  margin: 0 auto;
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  margin-left: -300px;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.intro img {
+  float: left;
+  cursor: pointer;
+}
+.intro .content {
+  float: right;
+  text-align: center;
+  width: 330px;
+  padding-top: 10px;
+}
+.intro button {
+  margin-top: 0.75em;
+}
+.page.animated .intro {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.page.open .intro {
+  opacity: 0;
+  top: 500px;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}

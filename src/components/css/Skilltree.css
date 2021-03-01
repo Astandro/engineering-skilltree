@@ -1,0 +1,502 @@
+.talent-tree {
+  width: 100%;
+  height: 510px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  z-index: 10;
+}
+.page.animated .talent-tree {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.page.open .talent-tree {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.skill {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+.skill .icon-container {
+  position: absolute;
+  background: black;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  top: 5px;
+  left: 5px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 6px 11px #000000;
+  -moz-box-shadow: 0 6px 11px #000000;
+  box-shadow: 0 6px 11px #000000;
+  overflow: hidden;
+  z-index: 2;
+}
+.skill .icon {
+  width: 100%;
+  height: 100%;
+  background: url(../../img/icon-sprite.png) no-repeat top left;
+  -moz-opacity: 0.35;
+  -khtml-opacity: 0.35;
+  -webkit-opacity: 0.35;
+  opacity: 0.35;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=35);
+  filter: alpha(opacity=35);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.skill .frame {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../../img/sprite.png) no-repeat top left;
+  z-index: 3;
+}
+.skill:hover .tool-tip {
+  visibility: visible;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+  -webkit-transition: all 0.3s 0.3s ease-out;
+  -moz-transition: all 0.3s 0.3s ease-out;
+  -o-transition: all 0.3s 0.3s ease-out;
+  transition: all 0.3s 0.3s ease-out;
+  z-index: 5 !important;
+}
+
+.skill .hit-area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.skill.can-add-points .frame {
+  background-position: -80px top;
+}
+.skill.can-add-points .skill-dependency {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+}
+.skill.has-points .icon {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+}
+.skill.has-max-points .frame {
+  background-position: -160px top;
+}
+.skill.has-max-points .skill-dependency {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+}
+.skill .skill-points {
+  position: absolute;
+  z-index: 1;
+  bottom: 5px;
+  right: 5px;
+  color: white;
+  font-size: 11px;
+  line-height: 1em;
+  width: 19px;
+  text-align: center;
+}
+.skill .tool-tip {
+  visibility: hidden;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  filter: alpha(opacity=0);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background: #000;
+  position: absolute;
+  z-index: 5 !important;
+  top: 5px;
+  left: 80px;
+  width: 300px;
+  padding: 10px;
+  -webkit-box-shadow: 0 6px 11px #000000;
+  -moz-box-shadow: 0 6px 11px #000000;
+  box-shadow: 0 6px 11px #000000;
+  border: 1px solid #333;
+}
+.skill .tool-tip .current-rank-description {
+  color: #fc3;
+}
+.skill .tool-tip .next-rank-description {
+  -moz-opacity: 0.35;
+  -khtml-opacity: 0.35;
+  -webkit-opacity: 0.35;
+  opacity: 0.35;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=35);
+  filter: alpha(opacity=35);
+  color: #fc3;
+}
+.skill .tool-tip .talent-summary {
+  color: #fc3;
+}
+.skill .tool-tip .help-message {
+  color: #c00;
+}
+.skill .skill-dependency {
+  position: absolute;
+  display: block;
+  bottom: 73px;
+  left: 50%;
+  -moz-opacity: 0.35;
+  -khtml-opacity: 0.35;
+  -webkit-opacity: 0.35;
+  opacity: 0.35;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=35);
+  filter: alpha(opacity=35);
+  pointer-events: none;
+  background: url(../../img/connection-sprite.png) no-repeat top left;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  z-index: 1 !important;
+}
+/**************************************************
+    DEPENDENCY ARROWS
+  **************************************************/
+[data-skill-id="2"] .skill-dependency {
+  margin-left: -15px;
+  width: 350px;
+  height: 60px;
+  background-position: -285px -10px;
+}
+[data-skill-id="3"] .skill-dependency,
+[data-skill-id="5"] .skill-dependency,
+[data-skill-id="20"] .skill-dependency,
+[data-skill-id="23"] .skill-dependency {
+  margin-left: 15px;
+  width: 60px;
+  height: 40px;
+  background-position: -740px -10px;
+  margin-bottom: -50px;
+}
+[data-skill-id="4"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 190px;
+  background-position: 0 -10px;
+}
+[data-skill-id="7"] .skill-dependency,
+[data-skill-id="9"] .skill-dependency,
+[data-skill-id="10"] .skill-dependency,
+[data-skill-id="12"] .skill-dependency,
+[data-skill-id="14"] .skill-dependency,
+[data-skill-id="25"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 70px;
+  background-position: 0 -210px;
+}
+[data-skill-id="15"] .skill-dependency,
+[data-skill-id="22"] .skill-dependency {
+  margin-left: -60px;
+  width: 120px;
+  height: 80px;
+  background-position: -160px 10px;
+}
+[data-skill-id="16"] .skill-dependency {
+  margin-left: -85px;
+  width: 60px;
+  height: 40px;
+  background-position: -640px -10px;
+  margin-bottom: -50px;
+}
+[data-skill-id="17"] .skill-dependency {
+  margin-left: -85px;
+  width: 150px;
+  height: 40px;
+  background-position: -640px -10px;
+  margin-bottom: -50px;
+}
+[data-skill-id="19"] .skill-dependency {
+  margin-left: -20px;
+  width: 120px;
+  height: 80px;
+  background-position: -40px 10px;
+}
+[data-skill-id="26"] .skill-dependency {
+  margin-left: -310px;
+  width: 720px;
+  height: 200px;
+  background-position: -60px -90px;
+}
+/**************************************************
+    TOOLTIPS
+  **************************************************/
+[data-skill-id="10"] .tool-tip,
+[data-skill-id="11"] .tool-tip,
+[data-skill-id="12"] .tool-tip,
+[data-skill-id="13"] .tool-tip,
+[data-skill-id="14"] .tool-tip,
+[data-skill-id="15"] .tool-tip,
+[data-skill-id="16"] .tool-tip,
+[data-skill-id="10"] .tool-tip,
+[data-skill-id="17"] .tool-tip,
+[data-skill-id="24"] .tool-tip,
+[data-skill-id="25"] .tool-tip {
+  left: -320px;
+}
+/**************************************************
+    ICON POSITIONS & SPRITES
+  **************************************************/
+.skill[data-skill-id="1"] {
+  left: 440px;
+  top: 10px;
+}
+.skill[data-skill-id="1"] .icon {
+  background: url(../../img/skills-1.jpg) no-repeat top left;
+  background-size: 620px 350px;
+  background-position: -555px 0px;
+}
+.skill[data-skill-id="2"] {
+  left: 320px;
+  top: 135px;
+}
+.skill[data-skill-id="2"] .icon {
+  background-position: -240px -60px;
+}
+.skill[data-skill-id="3"] {
+  left: 220px;
+  top: 135px;
+}
+.skill[data-skill-id="3"] .icon {
+  background-position: -420px 0px;
+}
+.skill[data-skill-id="4"] {
+  left: 320px;
+  top: 385px;
+}
+.skill[data-skill-id="4"] .icon {
+  background-position: -120px -120px;
+}
+.skill[data-skill-id="5"] {
+  left: 220px;
+  top: 385px;
+}
+.skill[data-skill-id="5"] .icon {
+  background-position: 0px -120px;
+}
+.skill[data-skill-id="6"] {
+  left: 400px;
+  top: 135px;
+}
+.skill[data-skill-id="6"] .icon {
+  background-position: -360px 0px;
+}
+.skill[data-skill-id="7"] {
+  left: 400px;
+  top: 260px;
+}
+.skill[data-skill-id="7"] .icon {
+  background-position: 0px 0px;
+}
+.skill[data-skill-id="8"] {
+  left: 480px;
+  top: 135px;
+}
+.skill[data-skill-id="8"] .icon {
+  background-position: -240px -120px;
+}
+.skill[data-skill-id="9"] {
+  left: 480px;
+  top: 260px;
+}
+.skill[data-skill-id="9"] .icon {
+  background-position: -300px 0px;
+}
+.skill[data-skill-id="10"] {
+  left: 480px;
+  top: 385px;
+}
+.skill[data-skill-id="10"] .icon {
+  background-position: -120px -180px;
+}
+.skill[data-skill-id="11"] {
+  left: 640px;
+  top: 135px;
+}
+.skill[data-skill-id="11"] .icon {
+  background-position: -60px -240px;
+}
+.skill[data-skill-id="12"] {
+  left: 640px;
+  top: 260px;
+}
+.skill[data-skill-id="12"] .icon {
+  background-position: -60px -300px;
+}
+.skill[data-skill-id="13"] {
+  left: 720px;
+  top: 135px;
+}
+.skill[data-skill-id="13"] .icon {
+  background-position: -300px -120px;
+}
+.skill[data-skill-id="14"] {
+  left: 720px;
+  top: 260px;
+}
+.skill[data-skill-id="14"] .icon {
+  background-position: -300px -180px;
+}
+.skill[data-skill-id="15"] {
+  left: 680px;
+  top: 385px;
+}
+.skill[data-skill-id="15"] .icon {
+  background-position: -120px -60px;
+}
+.skill[data-skill-id="16"] {
+  left: 780px;
+  top: 385px;
+}
+.skill[data-skill-id="16"] .icon {
+  background-position: -180px -120px;
+}
+.skill[data-skill-id="17"] {
+  left: 580px;
+  top: 385px;
+}
+.skill[data-skill-id="17"] .icon {
+  background-position: -300px -60px;
+}
+.skill[data-skill-id="18"] {
+  left: 140px;
+  top: 135px;
+}
+.skill[data-skill-id="18"] .icon {
+  background-position: -360px -300px;
+}
+.skill[data-skill-id="19"] {
+  left: 100px;
+  top: 260px;
+}
+.skill[data-skill-id="19"] .icon {
+  background-position: -240px -180px;
+}
+.skill[data-skill-id="20"] {
+  left: 0px;
+  top: 260px;
+}
+.skill[data-skill-id="20"] .icon {
+  background-position: -360px -60px;
+}
+.skill[data-skill-id="21"] {
+  left: 180px;
+  top: 260px;
+}
+.skill[data-skill-id="21"] .icon {
+  background-position: -360px -120px;
+}
+.skill[data-skill-id="22"] {
+  left: 140px;
+  top: 385px;
+}
+.skill[data-skill-id="22"] .icon {
+  background-position: -120px -240px;
+}
+.skill[data-skill-id="23"] {
+  left: 40px;
+  top: 385px;
+}
+.skill[data-skill-id="23"] .icon {
+  background-position: -480px 0px;
+}
+.skill[data-skill-id="24"] {
+  left: 840px;
+  top: 135px;
+}
+.skill[data-skill-id="24"] .icon {
+  background-position: -420px -180px;
+}
+.skill[data-skill-id="25"] {
+  left: 840px;
+  top: 260px;
+}
+.skill[data-skill-id="25"] .icon {
+  background-position: -360px -180px;
+}
+.skill[data-skill-id="26"] {
+  left: 440px;
+  top: 520px;
+}
+.skill[data-skill-id="26"] .icon {
+  background-position: -120px 0px;
+}
+
+
+.start-helper {
+  background: url(../../img/red-arrow.png) no-repeat left center;
+  padding-left: 55px;
+  position: absolute;
+  top: 30px;
+  left: 530px;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  filter: alpha(opacity=0);
+}
+.start-helper.active {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+}

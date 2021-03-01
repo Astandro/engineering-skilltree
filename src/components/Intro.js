@@ -1,5 +1,6 @@
 import React from "react";
-import screenshot from "../img/screenshot.png"
+import screenshot from "../img/screenshot.png";
+import "./css/Intro.css"
 
 export default function Intro({ toggleOpen }) {
   return (
@@ -21,9 +22,15 @@ export default function Intro({ toggleOpen }) {
           <br />
           You can use this app to keep track of your own skills or to track your
           subordinates skills (for managers)
+          <br />
         </p>
         <h3>So, start your adventure now!</h3>
         <button onClick={toggleOpen}>Open my skilltree »</button>
+        <br /><br /><br /><br />
+        For more detail please visit the{" "}
+        <a href="https://github.com/Astandro/engineering-skilltree">
+          project in github{" "}
+        </a>
       </div>
     </div>
   );
