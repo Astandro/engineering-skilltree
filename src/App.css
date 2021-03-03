@@ -26,8 +26,8 @@
   height: 220px;
   margin: 0 auto;
   top: -10px;
-  transform: rotate(-4deg);
-  filter: brightness(0.8);
+  transform: rotate(-3deg);
+  filter: brightness(1.2);
 }
 html {
   overflow-y: hidden;
