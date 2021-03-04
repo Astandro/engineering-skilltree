@@ -17,7 +17,6 @@ export default function Skilltree() {
       <Skill id={6} currentPoints={0} maxPoints={1} hasDependencies={true}/>
       <Skill id={7} currentPoints={0} maxPoints={1} hasDependencies={true}/>
       <Skill id={8} currentPoints={0} maxPoints={1} hasDependencies={true}/>
-      <Skill id={8} currentPoints={0} maxPoints={1} hasDependencies={true}/>
       
       {/* Second Line */}
       <Skill id={9} currentPoints={0} maxPoints={1} hasDependencies={true}/>
@@ -27,6 +26,16 @@ export default function Skilltree() {
       <Skill id={13} currentPoints={0} maxPoints={1} hasDependencies={true}/>
       <Skill id={14} currentPoints={0} maxPoints={1} hasDependencies={true} addDependencyLine={true}/>
       <Skill id={15} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+
+      {/* Third Line */}
+      <Skill id={16} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={17} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={18} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={19} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={20} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={21} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={22} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={23} currentPoints={0} maxPoints={1} hasDependencies={true}/>
     </div>
   );
 }

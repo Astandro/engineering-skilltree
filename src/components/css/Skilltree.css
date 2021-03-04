@@ -224,8 +224,8 @@
   margin-bottom: -50px;
 }
 
-[data-skill-id="7"] .skill-dependency {
-  margin-left: 15px;
+[data-skill-id="8"] .skill-dependency {
+  margin-left: -85px;
   width: 60px;
   height: 40px;
   background-position: -640px -70px;
@@ -285,6 +285,50 @@
   background-position: -0px -285px;
 }
 
+[data-skill-id="16"] .skill-dependency {
+  margin-left: -60px;
+  width: 120px;
+  height: 80px;
+  background-position: -160px -55px;
+}
+
+[data-skill-id="17"] .skill-dependency {
+  margin-left: -85px;
+  width: 60px;
+  height: 40px;
+  background-position: -640px -70px;
+  margin-bottom: -50px;
+}
+
+[data-skill-id="18"] .skill-dependency {
+  margin-left: -20px;
+  width: 120px;
+  height: 80px;
+  background-position: -40px -55px;
+}
+
+[data-skill-id="20"] .skill-dependency {
+  margin-left: -20px;
+  width: 120px;
+  height: 80px;
+  background-position: -40px -55px;
+}
+
+[data-skill-id="22"] .skill-dependency {
+  margin-left: 80px;
+  width: 40px;
+  height: 130px;
+  background-position: 0px -135px;
+  margin-bottom: -100px;
+  transform: rotate(90deg);
+}
+
+[data-skill-id="23"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+  background-position: -0px -285px;
+}
 
 /* [data-skill-id="3"] .skill-dependency,
 [data-skill-id="5"] .skill-dependency,
@@ -364,7 +408,9 @@
   top: 10px;
 }
 
+/* ===================================================================================== */
 /* First line */
+/* ===================================================================================== */
 .skill[data-skill-id="1"] .icon {
   background: url(../../img/icon-sprite.png) no-repeat top left;
   background-position: -120px 0px;
@@ -427,8 +473,9 @@
   background-position: -480px -410px;
 }
 
-
+/* ===================================================================================== */
 /* 2nd Line */
+/* ===================================================================================== */
 .skill[data-skill-id="9"] {
   left: -40px;
   top: 260px;
@@ -478,6 +525,68 @@
 .skill[data-skill-id="15"] .icon {
   background-position: -540px -410px;
 }
+
+/* ===================================================================================== */
+/* 3rd Line */
+/* ===================================================================================== */
+.skill[data-skill-id="16"] {
+  left: 0px;
+  top: 385px;
+}
+.skill[data-skill-id="16"] .icon {
+  background-position: -360px -210px;
+}
+.skill[data-skill-id="17"] {
+  left: 100px;
+  top: 385px;
+}
+.skill[data-skill-id="17"] .icon {
+  background-position: -420px -280px;
+}
+.skill[data-skill-id="18"] {
+  left: 180px;
+  top: 385px;
+}
+.skill[data-skill-id="18"] .icon {
+  background-position: 0px -280px;
+}
+.skill[data-skill-id="19"] {
+  left: 260px;
+  top: 385px;
+}
+.skill[data-skill-id="19"] .icon {
+  background-position: -480px -280px;
+}
+.skill[data-skill-id="20"] {
+  left: 420px;
+  top: 385px;
+}
+.skill[data-skill-id="20"] .icon {
+  background-position: -180px -550px;
+}
+.skill[data-skill-id="21"] {
+  left: 500px;
+  top: 385px;
+}
+.skill[data-skill-id="21"] .icon {
+  background-position: -60px -550px;
+}
+.skill[data-skill-id="22"] {
+  left: 580px;
+  top: 385px;
+}
+.skill[data-skill-id="22"] .icon {
+  background-position: -420px -550px;
+}
+.skill[data-skill-id="23"] {
+  left: 740px;
+  top: 385px;
+}
+.skill[data-skill-id="23"] .icon {
+  background-position: -480px -340px;
+}
+
+
 
 .start-helper {
   background: url(../../img/red-arrow.png) no-repeat left center;
