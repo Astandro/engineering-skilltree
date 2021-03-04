@@ -330,6 +330,42 @@
   background-position: -0px -285px;
 }
 
+[data-skill-id="24"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+  background-position: -0px -285px;
+}
+
+[data-skill-id="25"] .skill-dependency {
+  margin-left: -60px;
+  width: 120px;
+  height: 80px;
+  background-position: -160px -55px;
+}
+
+[data-skill-id="26"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 460px;
+  background-position: -820px 10px;
+  margin-bottom: -100px;
+}
+
+[data-skill-id="27"] .skill-dependency {
+  margin-left: -60px;
+  width: 120px;
+  height: 80px;
+  background-position: -160px -55px;
+}
+
+[data-skill-id="28"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+  background-position: -0px -285px;
+}
+
 /* [data-skill-id="3"] .skill-dependency,
 [data-skill-id="5"] .skill-dependency,
 [data-skill-id="20"] .skill-dependency,
@@ -584,6 +620,45 @@
 }
 .skill[data-skill-id="23"] .icon {
   background-position: -480px -340px;
+}
+
+/* ===================================================================================== */
+/* 4th Line */
+/* ===================================================================================== */
+.skill[data-skill-id="24"] {
+  left: 0px;
+  top: 510px;
+}
+.skill[data-skill-id="24"] .icon {
+  background-position: 0px -480px;
+}
+.skill[data-skill-id="25"] {
+  left: 140px;
+  top: 510px;
+}
+.skill[data-skill-id="25"] .icon {
+  background-position: -120px -280px;
+}
+.skill[data-skill-id="26"] {
+  left: 320px;
+  top: 510px;
+}
+.skill[data-skill-id="26"] .icon {
+  background-position: -360px -140px;
+}
+.skill[data-skill-id="27"] {
+  left: 460px;
+  top: 510px;
+}
+.skill[data-skill-id="27"] .icon {
+  background-position: -120px -552px;
+}
+.skill[data-skill-id="28"] {
+  left: 740px;
+  top: 510px;
+}
+.skill[data-skill-id="28"] .icon {
+  background-position: -300px 0px;
 }
 
 
