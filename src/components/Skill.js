@@ -4,9 +4,9 @@ export default function Skill({ id, currentPoints, maxPoints, hasDependencies })
 
   var classes = "skill "
 
-  if (currentPoints == maxPoints) {
+  if (currentPoints === maxPoints) {
     classes += "has-points has-max-points"
-  } else if (!hasDependencies && currentPoints == 0) {
+  } else if (!hasDependencies && currentPoints === 0) {
     classes += "can-add-points"
   } else if (currentPoints > 0 && currentPoints < maxPoints) {
     classes += "has-points can-add-points"
