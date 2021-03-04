@@ -387,6 +387,68 @@
   background-position: -40px -55px;
 }
 
+[data-skill-id="35"] .skill-dependency {
+  margin-left: -20px;
+  width: 120px;
+  height: 80px;
+  background-position: -40px -55px;
+}
+
+[data-skill-id="37"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+  background-position: -0px -285px;
+}
+
+[data-skill-id="38"] .skill-dependency {
+  margin-left: 15px;
+  width: 60px;
+  height: 40px;
+  background-position: -740px -70px;
+  margin-bottom: -50px;
+}
+
+[data-skill-id="39"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 220px;
+  background-position: -820px -125px;
+  margin-bottom: 0px;
+}
+
+[data-skill-id="40"] .skill-dependency {
+  margin-left: 15px;
+  width: 60px;
+  height: 40px;
+  background-position: -740px -70px;
+  margin-bottom: -50px;
+}
+
+[data-skill-id="41"] .skill-dependency {
+  margin-left: 15px;
+  width: 60px;
+  height: 40px;
+  background-position: -740px -70px;
+  margin-bottom: -50px;
+}
+
+[data-skill-id="42"] .skill-dependency {
+  margin-left: -60px;
+  width: 120px;
+  height: 80px;
+  background-position: -160px -55px;
+}
+
+[data-skill-id="43"] .skill-dependency {
+  margin-left: -85px;
+  width: 60px;
+  height: 40px;
+  background-position: -640px -70px;
+  margin-bottom: -50px;
+}
+
+
 /**************************************************
     ICON POSITIONS & SPRITES
   **************************************************/
@@ -665,6 +727,74 @@
 }
 .skill[data-skill-id="34"] .icon {
   background-position: -60px -340px;
+}
+
+
+/* ===================================================================================== */
+/* 5th Line */
+/* ===================================================================================== */
+.skill[data-skill-id="35"] {
+  left: 0px;
+  top: 760px;
+}
+.skill[data-skill-id="35"] .icon {
+  background-position: 0px -552px;
+}
+.skill[data-skill-id="36"] {
+  left: 80px;
+  top: 760px;
+}
+.skill[data-skill-id="36"] .icon {
+  background-position: -540px -480px;
+}
+.skill[data-skill-id="37"] {
+  left: 280px;
+  top: 760px;
+}
+.skill[data-skill-id="37"] .icon {
+  background-position: -300px -70px;
+}
+.skill[data-skill-id="38"] {
+  left: 360px;
+  top: 760px;
+}
+.skill[data-skill-id="38"] .icon {
+  background-position: -60px -410px;
+}
+.skill[data-skill-id="39"] {
+  left: 460px;
+  top: 760px;
+}
+.skill[data-skill-id="39"] .icon {
+  background-position: -360px -480px;
+}
+.skill[data-skill-id="40"] {
+  left: 540px;
+  top: 760px;
+}
+.skill[data-skill-id="40"] .icon {
+  background-position: -300px -280px;
+}
+.skill[data-skill-id="41"] {
+  left: 640px;
+  top: 760px;
+}
+.skill[data-skill-id="41"] .icon {
+  background-position: -420px 0px;
+}
+.skill[data-skill-id="42"] {
+  left: 740px;
+  top: 760px;
+}
+.skill[data-skill-id="42"] .icon {
+  background-position: -540px -620px;
+}
+.skill[data-skill-id="43"] {
+  left: 840px;
+  top: 760px;
+}
+.skill[data-skill-id="43"] .icon {
+  background-position: -180px -0px;
 }
 
 .start-helper {

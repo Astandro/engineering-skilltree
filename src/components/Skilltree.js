@@ -51,6 +51,27 @@ export default function Skilltree() {
       <Skill id={32} currentPoints={0} maxPoints={1} hasDependencies={true}/>
       <Skill id={33} currentPoints={0} maxPoints={1} hasDependencies={true}/>
       <Skill id={34} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+
+      {/* Sixth Line */}
+      <Skill id={35} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={36} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={37} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={38} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={39} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={40} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={41} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={42} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={43} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+
+      {/* Seventh Line */}
+      <Skill id={44} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={45} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={46} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={47} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={48} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={49} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={50} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={51} currentPoints={0} maxPoints={1} hasDependencies={true}/>
     </div>
   );
 }
