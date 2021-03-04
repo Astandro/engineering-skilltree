@@ -30,7 +30,7 @@
   filter: brightness(1.2);
 }
 html {
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 body {
   margin: 0;

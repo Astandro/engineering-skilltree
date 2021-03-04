@@ -232,6 +232,59 @@
   margin-bottom: -50px;
 }
 
+[data-skill-id="9"] .skill-dependency {
+  margin-left: -20px;
+  width: 120px;
+  height: 80px;
+  background-position: -40px -55px;
+}
+
+[data-skill-id="11"] .skill-dependency {
+  margin-left: -120px;
+  width: 40px;
+  height: 130px;
+  background-position: 0px -135px;
+  margin-bottom: -100px;
+  transform: rotate(-90deg);
+}
+
+[data-skill-id="12"] .skill-dependency {
+  margin-left: -60px;
+  width: 120px;
+  height: 80px;
+  background-position: -160px -55px;
+}
+
+[data-skill-id="13"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+  background-position: -0px -285px;
+}
+
+[data-skill-id="14"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+  background-position: -0px -285px;
+}
+
+[data-skill-id="14"] .skill-dependency.second {
+  margin-left: -120px;
+  width: 40px;
+  height: 130px;
+  background-position: 0px -135px;
+  margin-bottom: -100px;
+  transform: rotate(-90deg);
+}
+
+[data-skill-id="15"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+  background-position: -0px -285px;
+}
+
 
 /* [data-skill-id="3"] .skill-dependency,
 [data-skill-id="5"] .skill-dependency,
@@ -305,10 +358,13 @@
   horizontal long diff = 160px
 */
 
+/* start */
 .skill[data-skill-id="1"] {
   left: 540px;
   top: 10px;
 }
+
+/* First line */
 .skill[data-skill-id="1"] .icon {
   background: url(../../img/icon-sprite.png) no-repeat top left;
   background-position: -120px 0px;
@@ -363,6 +419,65 @@
   background-position: -480px -410px;
 }
 
+.skill[data-skill-id="8"] {
+  left: 840px;
+  top: 135px;
+}
+.skill[data-skill-id="8"] .icon {
+  background-position: -480px -410px;
+}
+
+
+/* 2nd Line */
+.skill[data-skill-id="9"] {
+  left: -40px;
+  top: 260px;
+}
+.skill[data-skill-id="9"] .icon {
+  background-position: -540px -210px;
+}
+.skill[data-skill-id="10"] {
+  left: 40px;
+  top: 260px;
+}
+.skill[data-skill-id="10"] .icon {
+  background-position: -420px -210px;
+}
+.skill[data-skill-id="11"] {
+  left: 220px;
+  top: 260px;
+}
+.skill[data-skill-id="11"] .icon {
+  background-position: -480px -210px;
+}
+.skill[data-skill-id="12"] {
+  left: 460px;
+  top: 260px;
+}
+.skill[data-skill-id="12"] .icon {
+  background-position: -180px -140px;
+}
+.skill[data-skill-id="13"] {
+  left: 580px;
+  top: 260px;
+}
+.skill[data-skill-id="13"] .icon {
+  background-position: -180px -410px;
+}
+.skill[data-skill-id="14"] {
+  left: 740px;
+  top: 260px;
+}
+.skill[data-skill-id="14"] .icon {
+  background-position: -300px -622px;
+}
+.skill[data-skill-id="15"] {
+  left: 840px;
+  top: 260px;
+}
+.skill[data-skill-id="15"] .icon {
+  background-position: -540px -410px;
+}
 
 .start-helper {
   background: url(../../img/red-arrow.png) no-repeat left center;

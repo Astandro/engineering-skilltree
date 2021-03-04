@@ -1,17 +1,22 @@
 import React from "react";
 
-export default function Skill({ id, currentPoints, maxPoints, hasDependencies }) {
-
-  var classes = "skill "
+export default function Skill({
+  id,
+  currentPoints,
+  maxPoints,
+  hasDependencies,
+  addDependencyLine,
+}) {
+  var classes = "skill ";
 
   if (currentPoints === maxPoints) {
-    classes += "has-points has-max-points"
+    classes += "has-points has-max-points";
   } else if (!hasDependencies && currentPoints === 0) {
-    classes += "can-add-points"
+    classes += "can-add-points";
   } else if (currentPoints > 0 && currentPoints < maxPoints) {
-    classes += "has-points can-add-points"
+    classes += "has-points can-add-points";
   }
-  
+
   return (
     <div className={classes} data-skill-id={id}>
       <div className="skill-dependency" />
@@ -74,6 +79,7 @@ export default function Skill({ id, currentPoints, maxPoints, hasDependencies })
         </div>
         <div className="hit-area" />
       </div>
+      {addDependencyLine ? <div className="skill-dependency second" /> : ""}
     </div>
   );
 }
