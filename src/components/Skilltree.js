@@ -43,6 +43,14 @@ export default function Skilltree() {
       <Skill id={26} currentPoints={0} maxPoints={1} hasDependencies={true}/>
       <Skill id={27} currentPoints={0} maxPoints={1} hasDependencies={true}/>
       <Skill id={28} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+
+      {/* Fifth Line */}
+      <Skill id={29} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={30} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={31} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={32} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={33} currentPoints={0} maxPoints={1} hasDependencies={true}/>
+      <Skill id={34} currentPoints={0} maxPoints={1} hasDependencies={true}/>
     </div>
   );
 }

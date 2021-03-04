@@ -366,66 +366,26 @@
   background-position: -0px -285px;
 }
 
-/* [data-skill-id="3"] .skill-dependency,
-[data-skill-id="5"] .skill-dependency,
-[data-skill-id="20"] .skill-dependency,
-[data-skill-id="23"] .skill-dependency {
-  margin-left: 15px;
-  width: 60px;
-  height: 40px;
-  background-position: -740px -10px;
-  margin-bottom: -50px;
-}
-[data-skill-id="4"] .skill-dependency {
-  margin-left: -20px;
-  width: 40px;
-  height: 190px;
-  background-position: 0 -10px;
-}
-[data-skill-id="7"] .skill-dependency,
-[data-skill-id="9"] .skill-dependency,
-[data-skill-id="10"] .skill-dependency,
-[data-skill-id="12"] .skill-dependency,
-[data-skill-id="14"] .skill-dependency,
-[data-skill-id="25"] .skill-dependency {
-  margin-left: -20px;
-  width: 40px;
-  height: 70px;
-  background-position: 0 -210px;
-}
-[data-skill-id="15"] .skill-dependency,
-[data-skill-id="22"] .skill-dependency {
-  margin-left: -60px;
-  width: 120px;
-  height: 80px;
-  background-position: -160px 10px;
-}
-[data-skill-id="16"] .skill-dependency {
-  margin-left: -85px;
-  width: 60px;
-  height: 40px;
-  background-position: -640px -10px;
-  margin-bottom: -50px;
-}
-[data-skill-id="17"] .skill-dependency {
-  margin-left: -85px;
-  width: 150px;
-  height: 40px;
-  background-position: -640px -10px;
-  margin-bottom: -50px;
-}
-[data-skill-id="19"] .skill-dependency {
+[data-skill-id="29"] .skill-dependency {
   margin-left: -20px;
   width: 120px;
   height: 80px;
-  background-position: -40px 10px;
+  background-position: -40px -55px;
 }
-[data-skill-id="26"] .skill-dependency {
-  margin-left: -310px;
-  width: 720px;
-  height: 200px;
-  background-position: -60px -90px;
-} */
+
+[data-skill-id="31"] .skill-dependency {
+  margin-left: -20px;
+  width: 120px;
+  height: 80px;
+  background-position: -40px -55px;
+}
+
+[data-skill-id="33"] .skill-dependency {
+  margin-left: -20px;
+  width: 120px;
+  height: 80px;
+  background-position: -40px -55px;
+}
 
 /**************************************************
     ICON POSITIONS & SPRITES
@@ -661,7 +621,51 @@
   background-position: -300px 0px;
 }
 
-
+/* ===================================================================================== */
+/* 5th Line */
+/* ===================================================================================== */
+.skill[data-skill-id="29"] {
+  left: -40px;
+  top: 635px;
+}
+.skill[data-skill-id="29"] .icon {
+  background-position: -180px -480px;
+}
+.skill[data-skill-id="30"] {
+  left: 40px;
+  top: 635px;
+}
+.skill[data-skill-id="30"] .icon {
+  background-position: -60px -480px;
+}
+.skill[data-skill-id="31"] {
+  left: 280px;
+  top: 635px;
+}
+.skill[data-skill-id="31"] .icon {
+  background-position: -300px -552px;
+}
+.skill[data-skill-id="32"] {
+  left: 360px;
+  top: 635px;
+}
+.skill[data-skill-id="32"] .icon {
+  background-position: -240px -140px;
+}
+.skill[data-skill-id="33"] {
+  left: 700px;
+  top: 635px;
+}
+.skill[data-skill-id="33"] .icon {
+  background-position: -360px -410px;
+}
+.skill[data-skill-id="34"] {
+  left: 780px;
+  top: 635px;
+}
+.skill[data-skill-id="34"] .icon {
+  background-position: -60px -340px;
+}
 
 .start-helper {
   background: url(../../img/red-arrow.png) no-repeat left center;
