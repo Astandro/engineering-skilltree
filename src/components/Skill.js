@@ -6,6 +6,7 @@ export default function Skill({
   maxPoints,
   hasDependencies,
   addDependencyLine,
+  skillName
 }) {
   var classes = "skill ";
 
@@ -25,7 +26,7 @@ export default function Skill({
       </div>
 
       <div className="tool-tip">
-        <h3 className="skill-name">HTML</h3>
+        <h3 className="skill-name">{skillName}</h3>
         <div className="skill-description">
           The main language for creating web pages, HTML is written in the form
           of tags enclosed in angle brackets (like &lt;html&gt;).

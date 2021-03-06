@@ -448,6 +448,73 @@
   margin-bottom: -50px;
 }
 
+[data-skill-id="44"] .skill-dependency {
+  margin-left: -60px;
+  width: 120px;
+  height: 80px;
+  background-position: -160px -55px;
+}
+
+[data-skill-id="45"] .skill-dependency {
+  margin-left: -85px;
+  width: 60px;
+  height: 40px;
+  background-position: -640px -70px;
+  margin-bottom: -50px;
+}
+
+[data-skill-id="46"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+  background-position: -0px -285px;
+}
+
+[data-skill-id="47"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+  background-position: -0px -285px;
+}
+
+[data-skill-id="48"] .skill-dependency {
+  margin-left: -85px;
+  width: 60px;
+  height: 40px;
+  background-position: -640px -70px;
+  margin-bottom: -50px;
+}
+
+[data-skill-id="49"] .skill-dependency {
+  margin-left: -85px;
+  width: 60px;
+  height: 40px;
+  background-position: -640px -70px;
+  margin-bottom: -50px;
+}
+
+[data-skill-id="50"] .skill-dependency {
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+  background-position: -0px -285px;
+}
+
+[data-skill-id="51"] .skill-dependency {
+  margin-left: -85px;
+  width: 60px;
+  height: 40px;
+  background-position: -640px -70px;
+  margin-bottom: -50px;
+}
+
+[data-skill-id="52"] .skill-dependency {
+  margin-left: -390px;
+  width: 860px;
+  height: 190px;
+  background-position: 20px -350px;
+}
+
 
 /**************************************************
     ICON POSITIONS & SPRITES
@@ -465,14 +532,14 @@
   left: 540px;
   top: 10px;
 }
-
-/* ===================================================================================== */
-/* First line */
-/* ===================================================================================== */
 .skill[data-skill-id="1"] .icon {
   background: url(../../img/icon-sprite.png) no-repeat top left;
   background-position: -120px 0px;
 }
+
+/* ===================================================================================== */
+/* First line */
+/* ===================================================================================== */
 .skill[data-skill-id="2"] {
   left: 0px;
   top: 135px;
@@ -731,7 +798,7 @@
 
 
 /* ===================================================================================== */
-/* 5th Line */
+/* 6th Line */
 /* ===================================================================================== */
 .skill[data-skill-id="35"] {
   left: 0px;
@@ -794,7 +861,79 @@
   top: 760px;
 }
 .skill[data-skill-id="43"] .icon {
+  background-position: 0px -70px;
+}
+
+/* ===================================================================================== */
+/* 7th Line */
+/* ===================================================================================== */
+.skill[data-skill-id="44"] {
+  left: 40px;
+  top: 885px;
+}
+.skill[data-skill-id="44"] .icon {
+  background-position: -480px -70px;
+}
+.skill[data-skill-id="45"] {
+  left: 140px;
+  top: 885px;
+}
+.skill[data-skill-id="45"] .icon {
+  background-position: -0px -622px;
+}
+.skill[data-skill-id="46"] {
+  left: 280px;
+  top: 885px;
+}
+.skill[data-skill-id="46"] .icon {
+  background-position: -540px -70px;
+}
+.skill[data-skill-id="47"] {
+  left: 460px;
+  top: 885px;
+}
+.skill[data-skill-id="47"] .icon {
+  background-position: -540px -552px;
+}
+.skill[data-skill-id="48"] {
+  left: 560px;
+  top: 885px;
+}
+.skill[data-skill-id="48"] .icon {
+  background-position: -360px -552px;
+}
+.skill[data-skill-id="49"] {
+  left: 660px;
+  top: 885px;
+}
+.skill[data-skill-id="49"] .icon {
+  background-position: -480px -0px;
+}
+.skill[data-skill-id="50"] {
+  left: 740px;
+  top: 885px;
+}
+.skill[data-skill-id="50"] .icon {
+  background-position: -180px -622px;
+}
+.skill[data-skill-id="51"] {
+  left: 840px;
+  top: 885px;
+}
+.skill[data-skill-id="51"] .icon {
   background-position: -180px -0px;
+}
+
+/* ===================================================================================== */
+/* 7th Line */
+/* ===================================================================================== */
+.skill[data-skill-id="52"] {
+  left: 400px;
+  top: 1020px;
+}
+.skill[data-skill-id="52"] .icon {
+  background: url(../../img/icon-sprite.png) no-repeat top left;
+  background-position: -120px -240px;
 }
 
 .start-helper {
